@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(../Ola/img/hero-banner.webp);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+}
+
+#navbar {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.first {
+    display: flex;
+    margin-left: 8px;
+}
+
+.second {
+    font-size: 14px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin: 8px 30px;
+    cursor: pointer;
+}
+
+#navbar i {
+    font-size: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    margin: -3px 10px 0px 49px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.one {
+    background: rgba(255, 255, 255, 0.17);
+    padding: 11px 7px;
+    font-size: 14x;
+}
+
+.two {
+    background-color: white;
+    color: black;
+    padding: 11px 7px;
+    font-size: 14px;
+}
+
+.text {
+    margin: 4rem 5rem;
+    font-size: 1.5rem;
+    padding: 160px;
+}
+
+.hero {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    height: 30vh;
+}
+
+.btn {
+    width: 43%;
+    height: 2rem;
+    padding: 12px;
+    background-color: white;
+    position: absolute;
+    top: -4.7rem;
+    font-size: 14px;
+}
+
+.btn ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn ul li {
+    list-style: none;
+    color: black;
+    cursor: pointer;
+}
+
+.hero span {
+    height: 2px;
+    width: 4.3rem;
+    background-color: black;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2f4f6;
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    top: -1.2rem;
+    padding-top: 1rem;
+}
+
+.options input {
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.options ::placeholder {
+    color: black;
+}
+
+.op3 {
+    background-image: url(../Ola/img/ola_cabs_back.svg), radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 16rem;
+    height: 3.2rem;
+    box-shadow: -3px 3px 0 #32c86e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.op1,
+.op2 {
+    border: 1px solid black;
+    background-color: white;
+    height: 3.2rem;
+    width: 14rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.i1,
+.i3 {
+    color: #92C83E;
+    font-size: 10px;
+}
+
+.i2 {
+    color: #c3c6c9;
+    font-size: 15px;
+}
+
+.banner {
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    top: 5rem;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.tag {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    height: 85vh;
+    margin-top: 6rem;
+    padding-top: 2rem;
+}
+
+.tag .lines {
+    color: #000000;
+    text-align: center;
+    font-size: 2.7rem;
+    text-shadow: 1.152px 1.152px 0 #fff,
+        1.728px 1.728px 0 #92c83e;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.c1,
+.c2,
+.c3 {
+    height: 20rem;
+    width: 15rem;
+    text-align: center;
+}
+
+.c1 img,
+.c2 img,
+.c3 img {
+    width: 10rem;
+}
+
+.cards h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+.cards h4 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.cards p {
+    color: #5c5f61;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.scooter {
+    position: relative;
+    height: 180vh;
+    background-color: #000000;
+}
+
+.s1 {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    height: 85vh;
+    margin-top: 5rem;
+    padding-top: 10rem;
+}
+
+.s1 img {
+    width: 100%;
+}
+
+.s1 h2 {
+    color: white;
+    text-align: start;
+    font-size: 2.7rem;
+    text-shadow: 1.152px 1.152px 0px #000000,
+        1.728px 1.728px 0px #92C83E;
+    margin-bottom: 2rem;
+}
+
+.facilities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1 {
+    width: 20rem;
+}
+
+.f1 p {
+    color: #999999;
+    line-height: 25px;
+}
+
+.f1 button {
+    border: none;
+    color: #16aa51;
+    background-color: transparent;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.f1 button i {
+    font-size: 16px;
+    color: #16aa51;
+    margin-left: 5px;
+}
+
+.f2 {
+    width: 8rem;
+    height: 7rem;
+    background-color: #151616;
+    text-align: start;
+    border-image: linear-gradient(rgb(141 141 141), rgba(255, 255, 255, 0)) 15;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.f2 h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.f2 h4 span {
+    font-size: 16px;
+}
+
+.f2 p {
+    font-size: 12px;
+    margin: 25px 0px 0px 30px;
+    color: #999999;
+}
+
+.im1 {
+    cursor: pointer;
+}
+
+.future {
+    height: 200vh;
+    width: 65%;
+    margin: auto;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.future h2 {
+    color: black;
+    text-align: start;
+    font-size: 2.7rem;
+    text-shadow: 1.152px 1.152px 0px white,
+        1.728px 1.728px 0px #92C83E;
+    margin-bottom: 2rem;
+}
+
+.buggy {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.pic {
+    width: 65%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.info {
+    width: 35%;
+    background-color: rgb(240, 240, 241);
+}
+
+.info h4 {
+    color: black;
+    margin: 5rem 12px 15px 45px;
+    font-size: 1.2rem;
+}
+
+.info p {
+    color: #7f7f7f;
+    margin: 2rem 12px 13px 45px;
+    font-size: 15px;
+    line-height: 22px;
+    width: 70%;
+}
+
+#data {
+    background-color: black;
+    height: 150vh;
+}
+
+.clip {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    margin-top: 5rem;
+    height: 130vh;
+}
+
+.clip h2 {
+    color: white;
+    text-align: start;
+    font-size: 2.7rem;
+    text-shadow: 1.152px 1.152px 0px white,
+        1.728px 1.728px 0px #92C83E;
+    padding-top: 6rem;
+}
+
+.clip video {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.box {
+    background-color: white;
+    height: 100vh;
+}
+
+.box h2 {
+    color: black;
+    text-align: start;
+    font-size: 2.7rem;
+    text-shadow: 1.152px 1.152px 0px white,
+        1.728px 1.728px 0px #92C83E;
+    padding-top: 4rem;
+    padding-left: 14rem;
+}
+
+.boxs {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box h4 {
+    color: black;
+    font-size: 1.3rem;
+    margin: 18px 0px;
+}
+
+.box p {
+    color: #5c5f61;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.b1 {
+    width: 16rem;
+}
+
+.b1 img {
+    width: 100%;
+}
+
+.inovationCenter {
+    background-color: white;
+    height: 80vh;
+}
+
+.inovation {
+    width: 65%;
+    margin: auto;
+    position: relative;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vd {
+    width: 55%;
+}
+
+.detail {
+    width: 40%;
+}
+
+.vd video {
+    width: 100%;
+}
+
+.detail h2 {
+    color: #000000;
+    text-align: start;
+    font-size: 2.7rem;
+    text-shadow: 1.152px 1.152px 0px white,
+        1.728px 1.728px 0px #92C83E;
+    padding-top: 2rem;
+}
+
+.detail h4 {
+    color: black;
+    font-size: 1.3rem;
+    margin: 18px 0px;
+}
+
+.detail p {
+    color: #5c5f61;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.driver {
+    display: flex;
+}
+
+.rider {
+    width: 15rem;
+    margin-left: 25px;
+}
+
+.piller {
+    height: 7.8rem;
+    width: 4px;
+    margin-top: 20px;
+    background-color: #92C83E;
+}

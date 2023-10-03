@@ -1,0 +1,524 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#one {
+    display: flex;
+}
+
+.logo img {
+    width: 15rem;
+    margin: 12px 22px;
+}
+
+.dark {
+    background-color: rgb(47, 42, 42);
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+}
+
+.dark img {
+    width: 25vw;
+    position: absolute;
+    top: 5rem;
+    right: 21rem;
+}
+
+.light {
+    background-color: rgb(195, 179, 71);
+    height: 100vh;
+    width: 60vw;
+    position: relative;
+}
+
+.intro {
+    position: absolute;
+    top: 13rem;
+    left: 17rem;
+}
+
+.hello {
+    font-size: 4rem;
+    color: white;
+}
+
+.name {
+    font-size: 5rem;
+    color: rgba(47, 42, 42);
+}
+
+.post {
+    font-size: 3rem;
+    color: white;
+}
+
+.btn-1 {
+    margin-top: 2rem;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: rgba(47, 42, 42);
+    background-color: rgb(195, 179, 71);
+    border: 2px solid rgba(47, 42, 42);
+    padding: 12px 22px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.icon {
+    text-align: end;
+    color: rgb(195, 179, 71);
+    font-size: 2.3rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icon i {
+    transition: .3s ease-in-out;
+}
+
+.icon i:hover {
+    transform: rotate(90deg);
+    color: white;
+}
+
+.navbar {
+    float: right;
+    background-color: rgb(195, 179, 71);
+    height: 100vh;
+    width: 15rem;
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff, 0 0 5px rgba(195, 179, 71),
+        0 0 20px rgba(195, 179, 71), 0 0 25px rgba(195, 179, 71),
+        0 0 30px rgba(195, 179, 71), 0 0 35px rgba(195, 179, 71);
+    top: 0;
+    right: 0;
+    transition: .5s ease-in-out;
+    transform: translate(0);
+}
+
+.shownav {
+    transform: translate(0px, -750px);
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 35px 12px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.icon2 {
+    text-align: end;
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icon2 i {
+    transition: .3s ease-in-out;
+}
+
+.icon2 i:hover {
+    transform: rotate(180deg);
+    color: rgb(47, 42, 42);
+}
+
+#two {
+    height: 100vh;
+    background-color: rgb(58, 52, 52);
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img img {
+    width: 15.5rem;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    left: 45px;
+    border: 8px solid rgb(74, 68, 68);
+}
+
+.img {
+    border: 10px solid rgb(255, 234, 100);
+    width: 15rem;
+    height: 23rem;
+    text-align: center;
+    margin-top: 7rem;
+    position: relative;
+    align-items: center;
+}
+
+.content {
+    width: 30rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+.content h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.content p {
+    font-size: 1.5rem;
+    word-spacing: 5px;
+    line-height: 2rem;
+    color: aliceblue;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.links ul li a {
+    text-decoration: none;
+    border: 2px solid rgb(195, 179, 71);
+    padding: 12px 22px;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+
+.one {
+    color: white;
+    transition: .3s ease-in-out;
+    background-color: rgb(195, 179, 71);
+}
+
+.one:hover {
+    color: rgb(195, 179, 71);
+    background-color: white;
+}
+
+.two:hover {
+    color: rgb(41, 41, 40);
+    background-color: rgb(195, 179, 71);
+}
+
+.two {
+    color: rgb(195, 179, 71);
+    background-color: transparent;
+    transition: .3s ease-in-out;
+}
+
+#three {
+    height: 135vh;
+    background-color: rgb(47, 42, 42);
+    color: white;
+}
+
+#three h1 {
+    margin: 0;
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+#three p {
+    font-size: 1.5rem;
+    padding: 0rem 3rem;
+}
+
+.para {
+    text-align: center;
+}
+
+.hari,
+.om {
+    display: flex;
+    justify-content: center;
+}
+
+.hari {
+    margin-top: 3rem;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    height: 16rem;
+    width: 30rem;
+    border-radius: 12px;
+}
+
+.box-1 {
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(90deg, #c469db, #895acf, #4e4cc1)
+}
+
+.box-2 {
+    background: linear-gradient(90deg, #c1e77e, #9adf55, #6bd72d)
+}
+
+.box-3 {
+    margin-right: 3rem;
+    background: linear-gradient(90deg, #98e7ed, #5edddf, #2ccac5)
+}
+
+.box-4 {
+    background: linear-gradient(90deg, #e2d0aa, #d6c06b, #c98f2c)
+}
+
+.box-1 i,
+.box-2 i,
+.box-3 i,
+.box-4 i {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+.box-1 h2,
+.box-2 h2,
+.box-3 h2,
+.box-4 h2 {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-size: 2rem;
+}
+
+.box-1 p,
+.box-2 p,
+.box-3 p,
+.box-4 p {
+    font-size: 14px;
+    margin-left: 3rem;
+    text-align: justify;
+}
+
+.div-1 {
+    width: 9rem;
+    height: .5rem;
+    background-color: #6bd72d;
+    position: absolute;
+    left: 44%;
+}
+
+.div-2 {
+    width: 9rem;
+    height: .5rem;
+    background-color: #6bd72d;
+    position: absolute;
+    left: 55%;
+}
+
+#four {
+    background-color: rgb(58, 52, 52);
+    height: 110vh;
+    color: white;
+    text-align: center;
+}
+
+#four h1 {
+    margin: 0;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#four p {
+    font-size: 1.5rem;
+    padding: 0rem 3rem;
+}
+
+.div-3 {
+    width: 9rem;
+    height: .5rem;
+    background-color: #6bd72d;
+    position: absolute;
+    left: 45%;
+}
+
+.items {
+    display: grid;
+    grid-template-areas:
+        "one two three"
+        "one two three"
+        "four five  six";
+    place-items: center;
+    gap: 3rem;
+    margin: 2rem 4rem;
+}
+
+.item-1 {
+    grid-area: one;
+    background-color: #e1e5c4;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+
+.item-2 {
+    grid-area: two;
+    background-color: #f0f0f0;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+
+.item-3 {
+    grid-area: three;
+    background-color: #fbf2eb;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+
+.item-4 {
+    grid-area: four;
+    background-color: #4bccf6;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+
+.item-5 {
+    grid-area: five;
+    background-color: #fedb5d;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+
+.item-6 {
+    grid-area: six;
+    background-color: #afefe5;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+
+.item-1 img {
+    width: 12rem;
+    padding-left: 1rem;
+}
+
+.item-2 img {
+    width: 12rem;
+    padding-top: 3rem;
+}
+
+.item-3 img {
+    width: 12rem;
+    padding-top: 4rem;
+}
+
+.item-4 img {
+    width: 12rem;
+    padding-top: 1rem;
+}
+
+.item-5 img {
+    width: 12rem;
+    padding-top: 1rem;
+}
+
+.item-6 img {
+    width: 9rem;
+    padding-top: 1rem;
+}
+
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover,
+.item-6:hover {
+    transform: scale(1.2);
+}
+
+#five {
+    height: 60vh;
+    background-color: white;
+    text-align: center;
+}
+
+.contect img {
+    width: 17rem;
+}
+
+.contect p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.contect {
+    margin-top: 4rem;
+    color: #8a8fa3;
+}
+
+.icons a {
+    background-color: #dce2ed;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #595e72;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 12px;
+}
+
+.icons a i {
+    font-size: 1.5rem;
+    width: 3rem;
+    transition: 0.3s linear;
+}
+
+.icons a i:hover {
+    color: white;
+}
+
+.footer p {
+    color: #595e72;
+    margin-top: 3rem;
+}
+
+.footer p span {
+    color: rgb(47, 42, 42);
+}
+
+.btn-1 a:hover {
+    color: rgb(195, 179, 71);
+    background-color: rgb(58, 52, 52);
+    border: 2px solid rgb(41, 41, 40);
+}
+
+.btn-1 a {
+    transition: .5s ease-out;
+}
+
+.p-2 {
+    margin-bottom: 3rem;
+    text-transform: none;
+}
