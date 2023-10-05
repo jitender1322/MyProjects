@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header {
+    padding: 25px;
+    background-image: url(../UberEatsClone/img/banner.webp);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1 i {
+    font-size: 20px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+
+.b1 {
+    display: flex;
+    align-items: center;
+}
+
+.b2 button {
+    padding: 14px 16px;
+    border: none;
+    border-radius: 28px;
+    margin-right: 9px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    color: white;
+    background-color: black;
+}
+
+.intro {
+    margin-top: 100px;
+    position: relative;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro input {
+    margin-top: 3rem;
+    width: 35rem;
+    height: 3.5rem;
+    border: none;
+    font-size: 16px;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.intro select {
+    height: 3.5rem;
+    border: none;
+    width: 11.5rem;
+    font-size: 16px;
+    text-align: center;
+}
+
+.intro button {
+    padding: 20px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.i-1 {
+    position: absolute;
+    top: 11.3rem;
+    left: 1rem;
+    font-size: 20px;
+}
+
+.i-2 {
+    position: absolute;
+    top: 11.3rem;
+    left: 36rem;
+    font-size: 20px;
+}
+
+.intro p {
+    font-size: 14px;
+}
+
+.intro p span {
+    text-decoration: underline;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 5rem;
+    height: 65vh;
+}
+
+.boxes img {
+    height: 13.7rem;
+    margin-bottom: 12px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.boxes p {
+    text-decoration: underline;
+    margin-top: 12px;
+}
+
+.map {
+    padding: 3rem 3rem 1rem 3rem;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.text h2 {
+    font-size: 2.3rem;
+}
+
+.text p {
+    text-decoration: underline;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.map img {
+    height: 22.4rem;
+}
+
+.locations {
+    padding: 0rem 3rem 0 3rem;
+}
+
+.list {
+    display: flex;
+}
+
+.list ul {
+    margin-right: 11rem;
+}
+
+.list ul li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.titu {
+    margin-bottom: 2.5rem;
+}
+
+#footer {
+    padding: 3rem;
+    height: 90vh;
+}
+
+#footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dn {
+    height: 5rem;
+    margin-top: 8rem;
+    cursor: pointer;
+}
+
+.line-1 {
+    width: 30rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.ic-1 i {
+    font-size: 18px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.ic-2 ul {
+    display: flex;
+}
+
+.ic-2 ul li {
+    list-style: none;
+    font-size: 14px;
+    padding-left: 70px;
+}
+
+.info-2 {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    margin-top: 1rem;
+}
