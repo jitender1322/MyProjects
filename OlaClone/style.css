@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(../Ola/img/hero-banner.webp);
+    background-image: url(../OlaClone/img/hero-banner.webp);
     background-position: center;
     background-size: cover;
     height: 55vh;
@@ -133,7 +133,7 @@ header {
 }
 
 .op3 {
-    background-image: url(../Ola/img/ola_cabs_back.svg), radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
+    background-image: url(../OlaClone/img/ola_cabs_back.svg), radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
     background-position: bottom;
     background-repeat: no-repeat;
     width: 16rem;
