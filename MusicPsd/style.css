@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.search i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background: url(../MusicPsd/img/bg1.png)no-repeat center center/cover;
+}
+
+.main-text-1 {
+    color: white;
+    padding: 100px;
+}
+
+.main-text-1 h1 {
+    font-size: 125px;
+    font-weight: 400;
+    font-family: "Oswald";
+    margin-top: 50px;
+}
+
+.main-text-1 p {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-text-1 button {
+    border-radius: 4px;
+    background-color: #e8631c;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+
+
+
+.g-2 {
+    padding: 30px 100px;
+    background-color: #e8631c;
+}
+
+.main-text-2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.main-text-2 h2 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.main-text-2 p {
+    padding: 20px 100px;
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+
+.card h4 {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 30px;
+}
+
+
+
+
+.g-3 {
+    background-color: #303030;
+}
+
+.g-3 .card {
+    background-color: #e8631c;
+    border-radius: 8px;
+    height: 300px;
+    margin: 25px 0;
+}
+
+.g-3 .card p {
+    margin: 10px 0;
+}
+
+.g-3 .card button {
+    border: none;
+    background-color: #303030;
+    padding: 5px 70px;
+    color: white;
+}
+
+.g-3 .card img {
+    width: 30%;
+    margin-top: 35px;
+}
+
+
+
+
+
+.g-4 {
+    background-color: #e8631c;
+    display: flex;
+}
+
+.g-4 img {
+    width: 50%;
+}
+
+.main-text-3 {
+    color: #ffffff;
+    font-family: "Oswald";
+    padding: 100px;
+}
+
+.main-text-3 h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.main-text-3 p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 100px 50px 0;
+}
+
+.main-text-3 button {
+    border-radius: 4px;
+    background-color: #303030;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+}
+
+
+
+
+.g-5 {
+    padding-top: 93px;
+}
+
+.g-5 .main-text-2 {
+    margin: 0 100px;
+}
+
+.g-5 .main-text-2 p {
+    padding: 0 100px;
+}
+
+.g-5 .card {
+    background-color: transparent;
+}
+
+.g-5 .card h4 {
+    font-size: 67px;
+    font-weight: 700;
+}
+
+.g-5 .card p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+.g-6 {
+    background: url(../MusicPsd/img/bg2.png)no-repeat center center/cover;
+    padding: 100px;
+}
+
+.main-text-4 {
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-text-4 p {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 30px 100px;
+}
+
+.main-text-4 h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+
+.sub {
+    background-color: #e8631c;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+}
+
+.sub h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 50px 0 20px;
+}
+
+.sub p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 100px;
+}
+
+.sub input {
+    width: 40%;
+    padding: 8px;
+    border: none;
+}
+
+.sub button {
+    padding: 8px 22px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #303030;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+.foot {
+    background-color: #303030;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+}
+
+
+.foot ul li {
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+.first {
+    width: 30%;
+}
+
+.first p {
+    line-height: 23px;
+    padding: 15px 0;
+}
+
+.first i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.bb {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+@media(max-width:1200px) {
+    .main-text-3 p {
+        padding: 20px 0 50px;
+    }
+
+    .main-text-3 {
+        padding: 50px;
+    }
+}
+
+@media (max-width:996px) {
+    .main-text-3 {
+        padding: 30px 0 30px 20px;
+    }
+
+    .g-2 {
+        padding: 30px 0;
+    }
+
+    .main-text-1 {
+        text-align: center;
+    }
+
+    .main-text-1 p {
+        font-size: 27px;
+    }
+
+    .g-5 .main-text-2 p {
+        padding: 20px;
+    }
+
+    .g-6 {
+        padding: 65px;
+    }
+
+    .main-text-4 p {
+        padding: 30px 0;
+    }
+
+    .sub {
+        padding: 20px 0;
+    }
+
+    .foot {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width:768px) {
+    .list {
+        display: none;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .g-5 {
+        padding-top: 50px;
+    }
+
+    .g-5 .card {
+        height: fit-content;
+        margin: 0;
+    }
+
+    .main-text-1 h1 {
+        font-size: 100px;
+        margin-top: 0;
+    }
+
+    .main-text-1 p {
+        font-size: 18px;
+    }
+
+    .main-text-3 h2 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width:568px) {
+    .main-text-1 {
+        padding: 100px 30px;
+    }
+
+    .main-text-1 h1 {
+        font-size: 85px;
+    }
+
+    .main-text-2 h2 {
+        font-size: 65px;
+    }
+
+    .main-text-2 p {
+        padding: 25px 10px;
+    }
+
+    .main-text-3 p {
+        font-size: 18px;
+    }
+
+    .g-5 .main-text-2 {
+        margin: 0;
+    }
+
+    .g-6 {
+        padding: 0;
+    }
+
+    .sub p {
+        padding: 10px;
+    }
+
+    .foot {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
+    .first p {
+        padding: 10px 0;
+    }
+
+    .bb {
+        font-size: 20px;
+    }
+}

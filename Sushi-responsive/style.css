@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group-1 {
+    background: url(../Sushi-responsive/img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png)no-repeat center center/cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #21243d;
+    padding: 8px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.click {
+    display: none;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav i {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-text {
+    margin: 90px 90px 0;
+    padding-right: 100px;
+}
+
+.main-text h1 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main-text p {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.main-text button {
+    border-radius: 23px;
+    background-color: #21243d;
+    padding: 15px 50px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin: 50px 0 100px;
+}
+
+.group-2 {
+    background: url(../Sushi-responsive/img/Shape.png)no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+img[class*="clip"] {
+    position: absolute;
+    width: 150px;
+}
+
+
+.clip-1 {
+    bottom: 50px;
+    right: -10px;
+    width: 90px !important;
+}
+
+.clip-2 {
+    top: -15px;
+    left: 115px;
+}
+
+.clip-3 {
+    top: -27px;
+    right: -30px;
+}
+
+.clip-4 {
+    top: 150px;
+    left: 40px;
+    width: 90px !important;
+}
+
+.clip-5 {
+    top: 50%;
+    right: -60px;
+    transform: rotate(90deg);
+}
+
+.clip-6 {
+    bottom: 50px;
+    left: -50px;
+}
+
+.group-2 h2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 12px;
+}
+
+.pp {
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.group-2 .circle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    padding: 0 80px;
+
+}
+
+.c-1 {
+    width: 246px;
+    margin-bottom: 90px;
+    z-index: 22;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.c-1 h4 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.c-1 p {
+    font-size: 15px;
+    margin: 12px 0px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.group-3 {
+    background: url(../Sushi-responsive/img/Shape2.png)no-repeat center center/cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.group-3 .main-text {
+    margin: 20px 0 0;
+    width: 450px;
+}
+
+.group-3 .main-text p {
+    font-size: 25px;
+    color: #21243d;
+    font-weight: 400;
+}
+
+.group-3 .main-text h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+}
+
+.group-3 .main-text button {
+    border: none;
+    padding: 12px 55px;
+}
+
+.group-4 {
+    position: relative;
+    overflow: hidden;
+    background: url(../Sushi-responsive/img/Shape3.png)no-repeat center center/cover;
+}
+
+.group-4 .circle {
+    margin-bottom: 60px;
+    padding: 50px 100px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.group-4 h2 {
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+    font-size: 80px;
+}
+
+.group-4 p {
+    text-align: center;
+    color: white;
+}
+
+.round-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding-top: 35px;
+}
+
+.round-1 p {
+    font-size: 45px;
+}
+
+.round-1 h2 {
+    padding: 0px;
+    font-size: 62px;
+}
+
+
+.group-6 {
+    background: url(../Sushi-responsive/img/g-5.png)no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+.group-6 p {
+    font-size: 28px;
+    padding: 25px 100px;
+    font-weight: 400;
+}
+
+.group-6 h2 {
+    font-size: 40px;
+}
+
+.group-7 {
+    background: url(../Sushi-responsive/img/Shape2.png)no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+}
+
+.group-7 h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.group-7 p {
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.group-7 input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    width: 550px;
+    height: 38px;
+    padding: 12px;
+
+}
+
+.group-7 button {
+    border-radius: 33px;
+    background-color: #21243d;
+    padding: 9px 54px;
+    color: white;
+    margin: 20px 0;
+    position: absolute;
+    top: 62%;
+    cursor: pointer;
+    right: 28%;
+
+}
+
+.group-8 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 100px;
+}
+
+.group-8 ul li {
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+.first {
+    width: 30%;
+}
+
+.first p {
+    line-height: 23px;
+    padding-bottom: 15px;
+}
+
+.first i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.bb {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:1200px) {
+    .group-7 input {
+        width: 51%;
+    }
+}
+
+@media (max-width: 992px) {
+    .circle {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .group-2 h2 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .group-2 p {
+        padding: 0 100px;
+        margin: 0 100px;
+    }
+
+    .c-1 h4 {
+        font-size: 28px;
+    }
+
+    .c-1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        padding: 0;
+    }
+
+    .group-7 button {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-text {
+        text-align: center;
+        margin: 30px auto 0;
+        padding: 0;
+    }
+
+    .group-1 .main-text h1 {
+        font-size: 85px;
+    }
+
+    .group-3 .main-text {
+        text-align: center;
+    }
+
+    .group-3 {
+        flex-direction: column-reverse;
+    }
+
+    .group-8 {
+        padding: 30px 15px;
+    }
+
+
+
+
+
+    img[class*="clip"] {
+        width: 100px;
+    }
+
+    .clip-5 {
+        top: 50%;
+        right: -50px;
+        transform: rotate(90deg);
+    }
+
+    .group-2 p {
+        padding: 0 50px;
+        margin: 0 50px;
+    }
+
+    .c-1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        padding: 0;
+    }
+
+    .group-6 p {
+        padding: 25px 0px;
+    }
+
+    .group-7 button {
+        position: static;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .click {
+        display: block;
+        position: absolute;
+        right: 10%;
+    }
+
+    .click:checked+ul {
+        display: block;
+        position: absolute;
+        top: 14%;
+        right: 4%;
+        background-color: #21243d;
+    }
+
+    .nav {
+        justify-content: space-between;
+        padding: 8px 20px;
+    }
+
+    .nav ul li {
+        padding: 10px 18px;
+    }
+
+    .group-8 {
+        padding: 30px 15px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .group-2 p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-text {
+        text-align: center;
+        margin: 30px auto 0;
+        padding: 0;
+    }
+
+    .group-1 .main-text h1 {
+        font-size: 85px;
+    }
+
+    .group-3 .main-text {
+        text-align: center;
+    }
+
+    .group-3 {
+        flex-direction: column-reverse;
+    }
+
+    .group-8 {
+        padding: 30px 15px;
+    }
+
+    .three {
+        flex-direction: column;
+    }
+
+    .group-7 input {
+        width: 100%;
+    }
+}
