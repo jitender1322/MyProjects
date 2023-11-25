@@ -1,0 +1,823 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #0f235a;
+    padding: 5px 10px;
+}
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+nav,
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0px 20px;
+    position: relative;
+}
+
+.first img {
+    width: 40px;
+}
+
+.first li a {
+    color: white;
+    font-size: 20px;
+}
+
+.first li:nth-child(3) a {
+    color: rgba(255, 255, 255, .8);
+}
+
+.first span {
+    display: inline-block;
+    width: 105px;
+    height: 5px;
+    background-color: #c65142;
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+}
+
+nav select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.second li {
+    border-left: 1px solid rgba(255, 255, 255, .1);
+}
+
+.cat {
+    background-color: white;
+}
+
+.cat ul {
+    display: flex;
+    text-transform: capitalize;
+}
+
+.cat ul li {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.cat ul li:nth-child(1) {
+    color: white;
+    background-color: #c65142;
+    clip-path: polygon(100% 0, 100% 17%, 67% 100%, 0 100%, 0 0);
+    padding: 10px 45px 25px;
+    text-transform: uppercase;
+}
+
+.cat ul li:nth-child(2) {
+    text-transform: uppercase;
+    color: black;
+}
+
+.access {
+    margin: 10px 5px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.access ul {
+    display: flex;
+    align-items: center;
+}
+
+.access i {
+    color: rgba(0, 0, 0, .2);
+}
+
+.access ul li {
+    color: #133f7e;
+    padding: 5px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.access ul li:nth-child(1) {
+    border-radius: 20px;
+    background-color: #a0c7ff;
+    color: #133f7e;
+}
+
+.banner-wrap {
+    background-color: #e9ecf4;
+    padding: 13px;
+}
+
+.banner {
+    background: url(./img/mini-banner.webp)no-repeat;
+    color: white;
+    border-radius: 12px;
+    padding: 80px 40px;
+    position: relative;
+}
+
+.banner button {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin-top: 100px;
+}
+
+.banner h2 {
+    font-size: 35px;
+    text-shadow: 0px 1px 2px rgba(128, 0, 0, 1);
+    margin: 10px 0;
+}
+
+.banner span {
+    display: inline-block;
+    width: 105px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 130px;
+    left: -30px;
+    transform: rotate(90deg);
+}
+
+
+
+.matches {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text h2 {
+    font-size: 35px;
+    margin-right: 30px;
+}
+
+.text h4 {
+    font-size: 22px;
+    margin: 0 20px;
+    color: rgba(0, 0, 0, .5);
+    font-weight: 400;
+}
+
+.fix {
+    color: #2255A4 !important;
+}
+
+.text span {
+    display: inline-block;
+    width: 75px;
+    height: 3px;
+    background-color: #2255A4;
+    position: absolute;
+    bottom: 0px;
+    left: 185px;
+}
+
+.matches p {
+    color: rgba(0, 0, 0, .5);
+}
+
+.matches p span {
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .5);
+    font-size: 12px;
+}
+
+.cards {
+    display: flex;
+    margin: 20px 50px;
+}
+
+.c-body {
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    background-color: #262d41;
+    color: white;
+    position: relative;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.c-top,
+.c-mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    padding: 15px;
+    border-bottom: 1px solid rgba(183, 182, 182, 0.419);
+}
+
+.c-top p {
+    color: #a0c7ff;
+}
+
+.c-mid img {
+    width: 60px;
+}
+
+.vs {
+    width: 30px !important;
+    margin: 0 20px;
+}
+
+.c-foot {
+    position: relative;
+    padding: 23px 15px;
+    text-align: center;
+}
+
+.c-foot::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(./img/card-pattern.png);
+    background-position: center;
+    background-size: 470px;
+    opacity: 0.1;
+}
+
+.c-foot-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(159, 159, 159, 0.2);
+    padding: 15px;
+}
+
+.random {
+    background-color: #B0D5FF;
+    color: #323130;
+    transform: rotate(270deg);
+    text-align: right;
+    position: absolute;
+    top: 116px;
+    left: -133px;
+}
+
+.random p {
+    padding: 0px 10px 0px 117px;
+}
+
+.videos {
+    background: url(./img/latest-Video-BG.png);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 370px;
+    color: white;
+    padding: 25px;
+}
+
+.main-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text h2 {
+    font-size: 35px;
+}
+
+.main-text ul li {
+    padding: 0 20px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.main-text ul,
+.icon {
+    display: flex;
+}
+
+.n-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.n-body {
+    width: 25%;
+    background-color: #133f7e;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, .8);
+    margin: 0 15px;
+    margin-top: 30px;
+}
+
+.n-body img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text-2 {
+    padding: 10px;
+}
+
+.text-2 h4 {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.icon-2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(159, 159, 159, 0.38);
+    padding: 20px 0;
+}
+
+.icon-3 {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, .7);
+}
+
+.icon-3 i {
+    padding: 0 10px;
+}
+
+
+.news {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+
+    position: relative;
+}
+
+.mini-news {
+    background: linear-gradient(180deg, rgba(33, 39, 52, 0) 0%, rgb(33, 39, 52) 100%), url(./img/mini-banner.webp)no-repeat center center/cover;
+    color: white;
+    margin: 30px;
+    border-radius: 12px;
+}
+
+.big-news {
+    margin: 30px;
+}
+
+.bot {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.bot button {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 12px;
+    clip-path: polygon(20% 0%, 100% 0, 85% 100%, 0 100%);
+}
+
+.bot p {
+    color: rgb(214, 190, 190);
+    margin: 10px 0;
+}
+
+.head {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.head img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.line {
+    margin: 15px 12px;
+}
+
+.line p {
+    color: rgb(214, 190, 190);
+}
+
+.line h4 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.line span {
+    text-align: right;
+    display: block;
+}
+
+.mobail {
+    background: url(./img/get-the-app-bg.svg)no-repeat center center/cover;
+    display: flex;
+}
+
+.phone img {
+    width: 400px;
+}
+
+.phone h2 {
+    font-size: 45px;
+    margin-top: 60px;
+}
+
+.phone p {
+    font-size: 20px;
+    margin: 20px 10px;
+    color: rgb(33, 39, 52);
+}
+
+
+
+.ranking {
+    display: flex;
+    margin: 50px 0;
+}
+
+.col-20 {
+    width: 20%;
+    padding: 50px 20px;
+    margin-left: 30px;
+}
+
+.col-20 h2 {
+    font-size: 35px;
+}
+
+.col-20 p {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.col-80 {
+    width: 80%;
+    display: flex;
+}
+
+.col-33 {
+    width: 33%;
+    position: relative;
+}
+
+.icc {
+    background-color: #2255A4;
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+
+.boxs {
+    display: flex;
+    text-align: center;
+}
+
+.box-1,
+.box-2 {
+    width: 50%;
+    font-family: serif;
+}
+
+.box-1 {
+    border-right: 1px solid rgba(214, 190, 190, 0.48);
+}
+
+.box-1 p {
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-1 h2 {
+    font-size: 55px;
+    margin-top: 30px;
+}
+
+.box-1 h2 span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.box-2 h2 {
+    font-size: 55px;
+    margin-top: 60px;
+}
+
+.box-2 h2 span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.box-3 {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-top: 1px solid rgba(214, 190, 190, 0.48);
+    font-family: serif;
+}
+
+.box-3 h2 {
+    font-size: 80px;
+    padding: 10px;
+}
+
+.box-3 h2 span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box-3 img {
+    width: 150px;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    opacity: .7;
+}
+
+.rohit {
+    background-color: #3e4856;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.rohit h2 {
+    font-family: serif;
+    font-size: 200px;
+    opacity: .5;
+}
+
+.rohit p {
+    padding: 5px 0;
+}
+
+.rohit img {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rohit button {
+    background-color: #dcb342;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hardik {
+    background-color: #141b24;
+}
+
+.hardik button {
+    background-color: #133f7e;
+    color: white;
+}
+
+.passion {
+    display: flex;
+}
+
+.players img {
+    width: 85%;
+}
+
+.shop {
+    margin: 30px 100px 0;
+}
+
+.shop p {
+    font-size: 20px;
+    color: #2b3f6c;
+    line-height: 30px;
+    margin-right: 100px;
+}
+
+.shop button {
+    border: none;
+    background-color: #F25541;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+.honours {
+    background-image: url(./img/honors-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 345px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.honours h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.trophy {
+    display: flex;
+}
+
+.trophy-1 {
+    width: 25%;
+    border-radius: 8px;
+    border: 1px solid #728ed9;
+    background: #293b6a;
+    position: relative;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 5px;
+    color: white;
+}
+
+
+.trophy-1 img {
+    z-index: 2;
+    position: relative;
+    margin: 20px 0;
+}
+
+.trophy-1 p {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 130px;
+    font-weight: 900;
+    font-family: serif;
+    opacity: .3;
+}
+
+.head-1,
+.head-3 {
+    margin-top: 18px;
+}
+
+.head-2 {
+    margin-top: 6px;
+}
+
+
+.gallery {
+    background: url(./img/Homepage-Galleries-BG.png)no-repeat center center/cover;
+    border-top-left-radius: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.main-text-3 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 10px;
+}
+
+.gal-1 {
+    display: flex;
+    margin: 20px;
+}
+
+.gale {
+    margin: 10px;
+}
+
+.gale img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.hero-banner {
+    background-color: black;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.company {
+    border: 2px solid #d2a66c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 20px;
+    padding-left: 70px;
+}
+
+.col-16 img {
+    width: 120px;
+}
+
+.sport {
+    display: flex;
+    flex-direction: column;
+}
+
+.sport img {
+    width: 70px !important;
+    margin: 5px;
+}
+
+
+
+.footer {
+    background: url(./img/footer-bg.svg)no-repeat center center/cover, #0a182e;
+    padding: 20px;
+}
+
+.foot-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    color: white;
+    align-items: center;
+}
+
+.social i {
+    padding: 0 10px;
+}
+
+.foot-text img {
+    width: 70px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options ul li a {
+    color: rgba(255, 255, 255, .5803921569);
+}
+
+.options ul li:nth-child(1) a {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.options ul li:nth-child(1) {
+    padding: 15px 0;
+}
+
+.options ul li {
+    padding: 10px 0;
+}
+
+.mini-foot {
+    background-color: #0a182e;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    font-size: 12px;
+}

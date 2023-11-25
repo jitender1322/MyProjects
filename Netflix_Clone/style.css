@@ -290,9 +290,6 @@ nav {
 
 
 @media (max-width:1200px) {
-    .v-wrap {}
-
-    .v-wrap-2 {}
 
     header {
         background-size: cover;
@@ -328,8 +325,6 @@ nav {
     .clip {
         width: fit-content;
     }
-
-    .v-wrap {}
 
     .mini {
         width: 420px;
