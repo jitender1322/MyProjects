@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -15,6 +16,7 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .flex {
@@ -342,4 +344,132 @@ a {
     font-size: 14px;
     color: #007185;
     text-align: start;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #232F3E;
+}
+
+.back {
+    background-color: #37475a;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.foot-1 {
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.foot-1 ul li {
+    padding: 6px 0;
+    font-size: 14px;
+    color: #DDD;
+}
+
+.foot-1 ul li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.line-1 {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.english {
+    position: relative;
+}
+
+.english i {
+    position: absolute;
+    color: #DDD;
+    top: 7px;
+    left: 38px;
+}
+
+#eng {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    background-color: transparent;
+    color: #DDD;
+    padding: 5px 15px 5px 30px;
+    margin: 0 30px;
+}
+
+.line-1 img {
+    margin: 0 30px;
+    width: 70px;
+}
+
+.line-2 {
+    padding-bottom: 20px;
+}
+
+.line-2 ul {
+    justify-content: center;
+    font-size: 13px;
+}
+
+.line-2 ul li {
+    padding: 3px 10px;
+}
+
+.line-2 ul li a {
+    color: rgba(255, 255, 255, 0.653);
+}
+
+.foot-3 {
+    justify-content: center;
+    background-color: #131a22;
+}
+
+.f-1 ul {
+    margin: 20px 70px;
+}
+
+.f-1 ul li {
+    font-size: 13px;
+}
+
+.f-1 ul li a {
+    color: rgba(255, 255, 255, 0.653);
+}
+
+.f-1 ul li:nth-child(1) {
+    font-size: 14px;
+}
+
+.f-1 ul li:nth-child(1) a {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.foot-4 {
+    background-color: #131a22;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 13px;
+    padding: 20px;
+}
+
+.foot-4 ul {
+    justify-content: center;
+}
+
+.foot-4 ul li {
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.foot-4 ul li a {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+#footer a:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.653);
 }
