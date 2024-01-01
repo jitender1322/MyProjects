@@ -215,6 +215,8 @@ nav {
     left: 19%;
     z-index: -1;
     overflow: hidden;
+    width: 65%;
+    height: 60%;
 }
 
 #feedback {
