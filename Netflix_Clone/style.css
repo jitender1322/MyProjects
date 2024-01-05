@@ -239,7 +239,16 @@ nav {
     align-items: center;
     background-color: #232323;
     padding: 25px 20px;
-    margin-bottom: 8px;
+    margin-top: 8px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.ans {
+    align-items: center;
+    background-color: #232323;
+    padding: 25px 20px;
+    margin-top: 2px;
     transition: all .4s;
     cursor: pointer;
 }
@@ -248,8 +257,17 @@ nav {
     background-color: #373636;
 }
 
-.que p {
+.que {
     font-size: 24px;
+}
+
+.ans p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.para {
+    margin-bottom: 20px;
 }
 
 .que span {
