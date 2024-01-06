@@ -113,12 +113,23 @@ nav {
     color: white;
     display: inline-block;
     margin-right: 20px;
+
 }
 
-.entry input::placeholder {
+.log {
+    position: relative;
+}
+
+#spam,
+#spam2 {
     font-weight: 700;
     color: rgb(212, 200, 200);
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    font-size: 13px;
 }
+
 
 .entry button {
     background-color: rgb(229, 9, 20);
@@ -251,6 +262,7 @@ nav {
     margin-top: 2px;
     transition: all .4s;
     cursor: pointer;
+    display: none;
 }
 
 .que:hover {
