@@ -102,6 +102,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 45px auto;
+    position: relative;
 }
 
 .entry input {
@@ -317,10 +318,6 @@ nav {
     margin-bottom: 20px;
 }
 
-
-
-
-
 @media (max-width:1200px) {
 
     header {
@@ -374,5 +371,53 @@ nav {
 
     .col-50 img {
         width: 100px;
+    }
+
+    #feedback {
+        padding: 25px;
+    }
+
+    #feedback h2 {
+        font-size: 30px;
+    }
+
+    #feedback h4 {
+        font-size: 17px;
+    }
+
+    .que {
+        padding: 13px 20px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .main-text {
+        padding: 20px;
+    }
+
+    .main-text h1 {
+        font-size: 30px;
+    }
+
+    .main-text h4 {
+        font-size: 20px;
+    }
+
+    .main-text p {
+        font-size: 18px;
+    }
+
+    .entry {
+        flex-direction: column;
+    }
+
+    .entry button {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .size {
+        margin: 0 25px;
     }
 }
