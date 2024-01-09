@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .box {
+            margin-top: 100px;
+        }
+
+        #color {
+            width: 200px;
+            margin: 30px auto;
+            height: 200px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            transition: .3s all;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            padding: 5px 15px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .box img {
+            width: 20%;
+            position: absolute;
+            top: 30%;
+            transition: .3s ease-in;
+        }
+
+        #dore {
+            right: -300px;
+        }
+
+        #nobi {
+            left: -300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Color Changer</h1>
+        <div id="color"></div>
+        <button onclick="add()">Magic!</button>
+        <img id="dore" src="../Task/img/dore.png" alt="">
+        <img src="./img/nobi.png" alt="" id="nobi">
+    </div>
+
+
+
+    <script>
+        let currentIndex = 0;
+        function add() {
+            let color = ['red', 'blue', 'green', 'pink', 'brown', 'aqua'];
+
+            document.getElementById('color').style.backgroundColor = color[currentIndex];
+            currentIndex++
+
+            console.log(currentIndex);
+            if (currentIndex >= color.length + 1) {
+                // alert('Chala JA DOREMON')
+                document.getElementById('dore').style.right = '200px'
+                document.getElementById('nobi').style.left = '200px'
+            }
+
+        }
+    </script>
+</body>
+
+</html>
