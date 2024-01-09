@@ -27,7 +27,7 @@ h2 {
 
 header {
     padding: 0 100px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(../Netflix_Clone/img/banner-1.jpg)no-repeat center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(./img/banner-1.jpg)no-repeat center/cover;
     background-size: 110%;
 }
 
