@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2d2e32;
+}
+
+a {
+    text-decoration: none;
+    color: #2d2e32;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+
+nav h2 {
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.col-50 {
+    width: 50%;
+    position: relative;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.main-text {
+    margin-top: 20px;
+    position: relative;
+}
+
+.main-text h2 {
+    font-size: 50px;
+}
+
+.main-text p {
+    margin: 20px 0;
+    color: #555;
+    font-weight: 400;
+}
+
+.wave {
+    width: 12%;
+    position: absolute;
+    top: 25%;
+    right: 33%;
+}
+
+.self {
+    text-align: center;
+    height: 330px;
+    width: 220px;
+    overflow: hidden;
+    border: 3px double black;
+    border-radius: 85px;
+}
+
+.self img {
+    width: 100%;
+}
+
+.git a {
+    padding: 0 5px;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+}
+
+.tech h4 {
+    width: 15%;
+}
+
+.soft {
+    margin-left: 30px;
+}
+
+.soft img {
+    width: 6%;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.soft img:hover {
+    transform: translateY(-10px);
+}
+
+.line {
+    display: inline;
+    width: 3px;
+    height: 20px;
+    background-color: rgba(45, 46, 50, .5);
+    margin: 0 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.info>div {
+    margin: 0 15px;
+}
+
+.info img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.info h4 {
+    font-weight: 800;
+    color: #147efb;
+}
+
+.info h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.info p {
+    color: #767676;
+    font-weight: 400;
+}
+
+.round {
+    width: 170px;
+    height: 170x;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15%;
+    left: -10%;
+}
+
+#emoji {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 29%;
+}
