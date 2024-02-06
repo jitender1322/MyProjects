@@ -6,6 +6,10 @@
     font-weight: 800;
 }
 
+
+/* Navbar 1 */
+
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -68,6 +72,100 @@
 
 
 
+/* navbar 2 */
+
+#nav-hide {
+    display: none;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 58px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.navbar2 i {
+    font-size: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.navbar2 img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.options2 {
+    display: none;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #d8d8d8;
+}
+
+.options2 ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.options2 select {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.show {
+    transition: .2s linear;
+}
+
+.show:hover {
+    color: #0074e8;
+}
+
+#comics2 {
+    width: 80px;
+}
+
+#movies2 {
+    width: 115px;
+}
+
+#shop2,
+#more2 {
+    width: 63px;
+}
+
+.btn-hide {
+    display: flex;
+    border-top: 1px solid black;
+    padding: 30px 20px;
+    gap: 20px;
+}
+
+.btn-hide button {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 0;
+    width: 50%;
+    background: transparent;
+}
+
+
+
 .banner {
     height: 70vh;
     background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .5)), url(../DC_Clone/img/DC.com_20231004_ATQ_ReverseFlash_Marquee_3x1_.avif);
@@ -117,14 +215,20 @@
     margin: 3rem 5rem;
 }
 
+.card-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
 .cards {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
 }
 
 .c-1 {
-    width: 260PX;
+    width: 50%;
     height: 550PX;
     text-align: center;
     box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.1);
@@ -176,12 +280,12 @@
     margin: 5rem 0 3rem 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .aqua iframe {
     flex-grow: 1;
     height: 24rem;
+    width: 60%;
 }
 
 .aqua-info {
@@ -225,8 +329,8 @@
 
 .boxes {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 1rem 2rem;
     position: relative;
 }
@@ -236,7 +340,7 @@ div[class*="bt"] {
 }
 
 .box {
-    width: 240PX;
+    width: 25%;
     height: 240PX;
     text-align: center;
     box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.1);
@@ -271,8 +375,8 @@ div[class*="bt"] {
     border-radius: 50%;
     background-color: transparent;
     position: absolute;
-    top: 56px;
-    left: 7px;
+    top: 20%;
+    left: 3%;
     text-align: center;
     padding-top: 12px;
     font-size: 22px;
@@ -305,7 +409,6 @@ div[class*="bt"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 2rem 0;
     font-weight: 900;
 }
@@ -334,7 +437,7 @@ div[class*="bt"] {
 .como {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 20px;
     font-weight: 1000;
     line-height: 26px;
     padding: 0rem 2rem;
@@ -342,7 +445,7 @@ div[class*="bt"] {
 }
 
 .com-1 {
-    width: 188px;
+    width: 20%;
     height: 390px;
     text-align: center;
 }
@@ -408,7 +511,7 @@ button {
     height: 50vh;
     margin: 0;
     color: white;
-    padding: 5rem 7rem;
+    padding: 2rem 7rem;
     position: relative;
 }
 
@@ -480,6 +583,7 @@ button {
 
 .f-card {
     display: flex;
+    gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -573,4 +677,143 @@ button {
     font-weight: 700;
     font-size: 16px;
     margin: 1rem;
+}
+
+
+
+/* Media Queries */
+
+@media(max-width:1400px) {
+    .info {
+        padding-top: 8rem;
+    }
+
+    #main {
+        margin: 3rem;
+    }
+}
+
+@media(max-width:1200px) {
+    .navbar {
+        display: none;
+    }
+
+    .info {
+        width: auto;
+    }
+
+    #nav-hide {
+        display: block;
+    }
+
+    .banner {
+        height: 80vh;
+    }
+}
+
+@media(max-width:992px) {
+    .aqua-info {
+        padding: 0 1rem;
+    }
+
+    .card-wrapper {
+        flex-direction: column;
+        margin: 0 4rem;
+    }
+
+    .cards {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .c-1 {
+        margin: 0 2rem;
+    }
+
+    .square {
+        margin-top: 2rem;
+    }
+
+    .square h2 {
+        margin-bottom: 2rem;
+    }
+
+    .aqua {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aqua-info {
+        padding: 2rem 8rem;
+        width: auto;
+    }
+
+    .aqua iframe {
+        width: 90%;
+    }
+
+    .box span {
+        top: 13%;
+    }
+
+    .como {
+        font-weight: 600;
+    }
+
+    .foot-info {
+        margin: 1rem;
+    }
+}
+
+
+@media(max-width:768px) {
+    #main {
+        margin: 3rem 0;
+    }
+
+    .aqua-info {
+        padding: 2rem 4rem;
+    }
+
+    .article {
+        margin: 2rem;
+    }
+
+    .article h2,
+    .shop h2 {
+        text-align: center;
+    }
+
+    .infoc {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .foot_banner {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .com-e {
+        display: none;
+    }
+
+    .boxes {
+        padding: 1rem 0;
+    }
+}
+
+@media(max-width:576px) {
+    .move {
+        display: none;
+    }
+
+    .c-1 {
+        margin: 0;
+    }
+
+    .foot-info {
+        width: auto;
+    }
 }
