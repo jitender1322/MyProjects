@@ -193,14 +193,14 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 270px;
+    width: 70%;
     border: 2px solid rgba(128, 128, 128, 0.7);
     box-shadow: 0 0 2em 0 rgb(0, 0, 0);
     position: absolute;
-    top: 230px;
-    left: 100px;
+    bottom: 0%;
+    left: 15%;
     background-color: black;
-    padding: 12px;
+    padding: 5px;
     border-radius: 7px;
 }
 
@@ -340,7 +340,6 @@ nav {
 
     .banner-info {
         width: fit-content;
-        padding: 0;
     }
 
     .banner-info h2 {
@@ -355,19 +354,19 @@ nav {
         width: fit-content;
     }
 
-    .mini {
-        width: 420px;
-        top: 360px;
-        left: 115px;
-        justify-content: unset;
-    }
-
     .icon {
         padding-left: 100px;
+    }
+
+    #feedback {
+        padding: 50px 30px;
     }
 }
 
 @media (max-width: 768px) {
+    .main-text h1 {
+        font-size: 38px;
+    }
 
     .col-50 img {
         width: 100px;
@@ -388,6 +387,10 @@ nav {
     .que {
         padding: 13px 20px;
         font-size: 20px;
+    }
+
+    .size {
+        margin: 0 25px;
     }
 }
 
@@ -417,7 +420,4 @@ nav {
         font-size: 18px;
     }
 
-    .size {
-        margin: 0 25px;
-    }
 }
