@@ -79,14 +79,6 @@ nav ul li {
     font-weight: 400;
 }
 
-.wave {
-    width: 12%;
-    position: absolute;
-    top: 8%;
-    right: 15%;
-    animation: wave 3s steps(12) infinite;
-}
-
 .self {
     text-align: center;
     height: 330px;
@@ -202,20 +194,10 @@ nav ul li {
 
 .wd {
     display: inline-block;
-    width: 75%;
+    width: 85%;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 3s steps(12) infinite;
-}
-
-@keyframes wave {
-    from {
-        left: 0;
-    }
-
-    to {
-        left: 74%;
-    }
 }
 
 @keyframes typing {
@@ -224,9 +206,28 @@ nav ul li {
     }
 
     to {
-        width: 80%;
+        width: 100%;
     }
 }
+
+.wave {
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    animation: wave 3s steps(12) infinite;
+}
+
+@keyframes wave {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 80%;
+    }
+}
+
+
 
 #project {
     margin: 50px 0;
@@ -349,13 +350,12 @@ footer a {
 
 /* Media query */
 
-@media (max-width: 992px) {
+
+
+
+@media (max-width: 1200px) {
     #content {
         width: 90%;
-    }
-
-    .soft img {
-        width: 9%;
     }
 
     .p-1 img {
@@ -366,10 +366,124 @@ footer a {
         padding: 20px;
     }
 
+    .inf h2 {
+        font-size: 20px;
+    }
+
+    .inf p {
+        font-size: 14px;
+    }
+
     .wave {
         top: 10%;
         width: 15%;
     }
 }
 
-@media(max-width:768px) {}
+@media(max-width:992px) {
+    .soft img {
+        width: 9%;
+    }
+
+    .main-text h2 {
+        font-size: 44px;
+    }
+
+    .wave {
+        top: 8%;
+        width: 13%;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inf,
+    .me {
+        width: 100%;
+    }
+
+    .hii {
+        width: 70% !important;
+    }
+
+    .round {
+        bottom: -10%;
+        left: 7%;
+    }
+
+    #project {
+        text-align: center;
+    }
+
+    .p-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-1 img {
+        width: 70%;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .main {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .main-text {
+        width: 80%;
+    }
+
+    .self {
+        width: 270px;
+    }
+
+    .wave {
+        top: 8%;
+        width: 9%;
+    }
+
+    @keyframes wave {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 70%;
+        }
+    }
+
+    @keyframes typing {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .wave {
+        width: 12%;
+    }
+
+    .icon {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .p-1 img {
+        width: 100%;
+    }
+
+    .col {
+        padding: 15px 10px;
+    }
+}
