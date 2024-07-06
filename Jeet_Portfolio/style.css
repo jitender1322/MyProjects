@@ -211,6 +211,7 @@ nav ul li {
 }
 
 .wave {
+    width: 15%;
     position: absolute;
     top: 8%;
     right: 15%;
@@ -376,7 +377,7 @@ footer a {
 
     .wave {
         top: 10%;
-        width: 15%;
+        width: 10%;
     }
 }
 
