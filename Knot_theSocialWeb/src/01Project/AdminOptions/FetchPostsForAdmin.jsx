@@ -151,8 +151,8 @@ export default function FetchPostsForAdmin() {
                                     <CommentIcon />
                                 </IconButton>
                             </CardActions>
-                            <span style={{ position: 'absolute', left: '64px', bottom: '12px', color: 'grey', fontSize: '12px' }}>{e.comments.length} comments</span>
-                            <span style={{ position: 'absolute', left: '24px', bottom: '12px', color: 'grey', fontSize: '12px' }}>{e.likes.length} like</span>
+                            <span style={{ position: 'absolute', left: '64px', bottom: '12px', color: 'grey', fontSize: '12px' }}>{e?.comments?.length} comments</span>
+                            <span style={{ position: 'absolute', left: '24px', bottom: '12px', color: 'grey', fontSize: '12px' }}>{e?.likes?.length} like</span>
                             <span style={{ position: 'absolute', right: '8px', bottom: '12px', color: 'grey', fontSize: '12px' }} >{timeAgo(e.time)}</span>
                         </Card>
                         <div style={{ width: '100%', position: 'absolute', bottom: '0', zIndex: '-1' }} className={postIndex === i ? 'popDown2' : ''} >
